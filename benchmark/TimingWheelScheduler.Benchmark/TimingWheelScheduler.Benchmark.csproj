@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net472;net6.0;net8.0</TargetFrameworks>
+    
+    <RootNamespace>TimingWheelSchedulerBenchmark</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\TimingWheelScheduler\TimingWheelScheduler.csproj" />
+  </ItemGroup>
+</Project>

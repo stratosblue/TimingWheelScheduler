@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmark", "benchmark", "{66e381a5-1845-47b6-a36f-6ec5939e8bfc}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimingWheelScheduler.Benchmark", "benchmark\TimingWheelScheduler.Benchmark\TimingWheelScheduler.Benchmark.csproj", "{a00202db-00d8-454c-81b0-4e4d5cc3fbfc}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{d643669e-e460-422c-9a90-62c85f2935f2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimingWheelScheduler", "src\TimingWheelScheduler\TimingWheelScheduler.csproj", "{feadcb1e-dc24-4654-9a0e-82c701692811}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7da2b14a-a33c-4fee-a367-7108a295dbfc}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimingWheelScheduler.Test", "test\TimingWheelScheduler.Test\TimingWheelScheduler.Test.csproj", "{7497fd7e-3d59-4920-9816-674216153e77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution items", "{07D4524D-19D0-4AA4-916E-829CAE401A7F}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+		LICENSE.txt = LICENSE.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{feadcb1e-dc24-4654-9a0e-82c701692811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{feadcb1e-dc24-4654-9a0e-82c701692811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{feadcb1e-dc24-4654-9a0e-82c701692811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{feadcb1e-dc24-4654-9a0e-82c701692811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7497fd7e-3d59-4920-9816-674216153e77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7497fd7e-3d59-4920-9816-674216153e77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7497fd7e-3d59-4920-9816-674216153e77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7497fd7e-3d59-4920-9816-674216153e77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{a00202db-00d8-454c-81b0-4e4d5cc3fbfc}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a00202db-00d8-454c-81b0-4e4d5cc3fbfc}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a00202db-00d8-454c-81b0-4e4d5cc3fbfc}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{a00202db-00d8-454c-81b0-4e4d5cc3fbfc}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{feadcb1e-dc24-4654-9a0e-82c701692811} = {d643669e-e460-422c-9a90-62c85f2935f2}
+		{7497fd7e-3d59-4920-9816-674216153e77} = {7da2b14a-a33c-4fee-a367-7108a295dbfc}
+		{a00202db-00d8-454c-81b0-4e4d5cc3fbfc} = {66e381a5-1845-47b6-a36f-6ec5939e8bfc}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6752acbc-a94d-486d-8fb3-934c2a3610bf}
+	EndGlobalSection
+EndGlobal
