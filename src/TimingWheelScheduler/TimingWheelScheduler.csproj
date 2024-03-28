@@ -6,6 +6,8 @@
     <RootNamespace>System.Threading.Tasks</RootNamespace>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    
     <IsPackable>true</IsPackable>
     <InternalsVisibleToTest>true</InternalsVisibleToTest>
   </PropertyGroup>
